@@ -1,6 +1,6 @@
-# Temperature Monitor Project README
+# Temperature Monitor ESP32-OLED-BMP280-AHT20
 
-This project utilizes the ESP32 C3 Super Mini, equipped with AHT and BMP sensors, on a shared I2C bus. The project includes a PlatformIO unit test that verifies sensor communication using the pio test command.
+This project utilizes the ESP32 C3 Super Mini, equipped with AHT20 and BMP280 sensors, on a shared I2C bus. The project includes a PlatformIO unit test that verifies sensor communication using the pio test command.
 
 ## Pin Configuration
 
