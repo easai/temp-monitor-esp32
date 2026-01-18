@@ -4,27 +4,21 @@ This project utilizes the ESP32 C3 Super Mini, equipped with AHT and BMP sensors
 
 ## Pin Configuration
 
-I2C bus  
-SDA is connected to GPIO 8  
-SCL is connected to GPIO 9  
+### BMP/AHT Sensor
+| AHT Pin | ESP32 C3 Pin |
+|---------|--------------|
+| SDA     | GPIO 8       |
+| SCL     | GPIO 9       |
+| VCC     | 3V3          |
+| GND     | GND          |
 
-AHT sensor  
-SDA to GPIO 8  
-SCL to GPIO 9  
-VCC to 3V3  
-GND to GND  
-
-BMP sensor  
-SDA to GPIO 8  
-SCL to GPIO 9  
-VCC to 3V3  
-GND to GND  
-
-OLED display  
-SDA to GPIO 8  
-SCL to GPIO 9  
-VCC to 3V3  
-GND to GND  
+### OLED Display
+| OLED Pin | ESP32 C3 Pin |
+|----------|--------------|
+| SDA      | GPIO 8       |
+| SCL      | GPIO 9       |
+| VCC      | 3V3          |
+| GND      | GND          |
 
 All devices share the same I2C bus.
 
@@ -46,4 +40,4 @@ Use the following command in the project directory
 
 pio test
 
-PlatformIO will build the test environment, upload the test firmware to the ESP32 C3 Super Mini, and run the test sequence. The results will be displayed in the PlatformIO output.
+
