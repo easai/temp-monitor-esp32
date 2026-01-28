@@ -1,10 +1,12 @@
 # Temperature Monitor ESP32-OLED-BMP280-AHT20
 
-<img src="https://github.com/easai/temp-monitor-esp32/blob/main/IMG_2799.jpeg" width="300"/>
+<img src="https://github.com/easai/temp-monitor-esp32/blob/main/IMG_2862.jpeg" width="300"/>
 
 This project utilizes the ESP32 C3 Super Mini, equipped with AHT20 and BMP280 sensors, on a shared I2C bus. The project includes a PlatformIO unit test that verifies sensor communication using the pio test command.
 
 ## Pin Configuration
+
+<img src="https://github.com/easai/temp-monitor-esp32/blob/main/IMG_2860.jpeg" width="300"/>
 
 ### BMP/AHT Sensor
 | AHT Pin | ESP32 C3 Pin |
