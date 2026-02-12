@@ -6,7 +6,7 @@ This project utilizes the ESP32 C3 Super Mini, equipped with AHT20 and BMP280 se
 
 ## Pin Configuration
 
-<img src="https://github.com/easai/temp-monitor-esp32/blob/main/IMG_2860.jpeg" width="300"/>
+<img src="https://github.com/easai/temp-monitor-esp32/blob/main/IMG_2873.jpeg" width="300"/>
 
 ### BMP/AHT Sensor
 | AHT Pin | ESP32 C3 Pin |
