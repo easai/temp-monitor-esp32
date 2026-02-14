@@ -42,6 +42,9 @@ The test is designed to run automatically without user interaction.
 
 Use the following command in the project directory
 
+```bash
 pio test
+```
 
-
+### Included Files
+The `/stl` directory contains the printable case components (top cover and base plate).
