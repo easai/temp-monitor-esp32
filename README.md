@@ -48,3 +48,11 @@ pio test
 
 ### Included Files
 The `/stl` directory contains the printable case components (top cover and base plate).
+
+Contents of the /stl directory:
+
+• Top cover designed to fit the OLED module  
+• Base plate with mounting points for the ESP32 C3 Super Mini  
+• Internal clearances matched to the AHT20 and BMP280 sensors  
+• Models prepared for standard FDM printing tolerances  
+• Files exported in millimeter units for compatibility with common slicers
